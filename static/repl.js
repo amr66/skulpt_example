@@ -46,7 +46,11 @@ $(function () {
 
     //Loop
     repl.eval = function (code) {
-        Sk.configure({ 
+        Sk.configure({
+			inputfun: function (prompt) {
+				return window.prompt(prompt);
+			},
+			inputfunTakesPrompt: true,
             output: function(str) {
                 //strip out line-feeds
                 if (str.replace(/\n/g, "") !== "") {
