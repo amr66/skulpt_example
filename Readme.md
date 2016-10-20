@@ -10,4 +10,4 @@ Currently I have HTML files for the "plain editor" (skulpt.html) and the interac
 
 Feel free to explore and respect the [licenses](https://github.com/skulpt/skulpt/blob/master/LICENSE) from Skulpt and related work
 
-20.10.2016: Edit a different editor, skulpt_editor. It adds htkml form elements to load local python scripts, save a script to a local file and adds a button to clear the editor "window".
+20.10.2016: Edit a different editor, skulpt_editor. It adds html form elements to load local python scripts, save a script to a local file and adds a button to clear the editor "window".
